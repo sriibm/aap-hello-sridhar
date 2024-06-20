@@ -1,0 +1,6 @@
+- name: Hello Sridhar Sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello Sridhar! - From Git Version controlled playbook"
